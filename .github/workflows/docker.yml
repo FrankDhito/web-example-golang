@@ -20,8 +20,8 @@ jobs:
       - name: Publish Docker image
         run: |
           echo "${{ secrets.Fdaw2001!@# }}" | docker login -u "${{ secrets.samdhito2989 }}" --password-stdin
-          docker build . -t habibiefaried/vulnerability-goapp
-          docker push habibiefaried/vulnerability-goapp:latest
+          docker build . -t samdhito/web-golang
+          docker push samdhito/web-golang:v1.0
 
       # https://github.com/appleboy/ssh-action
       - name: Deploy docker
